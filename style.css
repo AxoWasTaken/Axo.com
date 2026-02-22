@@ -11,7 +11,7 @@ body {
 }
 
 /* ============================
-   TOP RED BAR
+   TOP BAR
    ============================ */
 .top-bar {
     background: #f7f7f7;
@@ -40,7 +40,7 @@ body {
 }
 
 /* ============================
-   HEADER WITH EMBLEM
+   HEADER WITH SKIN
    ============================ */
 header {
     background: #f7f7f7;
@@ -55,7 +55,7 @@ header {
 }
 
 .emblem {
-    width: 160px;
+    width: 40px;
     height: auto;
     margin-left: 10px;
 }
@@ -63,11 +63,6 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.8rem;
-}
-
-.subtitle {
-    font-size: 1.2rem;
-    opacity: 0.9;
 }
 
 /* ============================
