@@ -23,7 +23,7 @@ body {
    SIMPLE LINK BAR
    ============================ */
 .simple-links {
-    background: #5e0000;
+    background: #d4d4d4;
     padding: 10px 20px;
     text-align: left;
 }
@@ -88,7 +88,7 @@ section {
 }
 
 h2 {
-    color: #8b0000;
+    color: #f7f7f7;
     margin-top: 0;
 }
 
