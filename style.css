@@ -9,3 +9,12 @@ body {
     color: #222;
     line-height: 1.4;
 }
+
+/* ============================
+   TOP WHITE BAR
+   ============================ */
+.top-bar {
+    background: #f7f7f7;
+    height: 6px;
+    width: 100%;
+}
