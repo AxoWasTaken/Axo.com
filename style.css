@@ -7,14 +7,121 @@ body {
     padding: 0;
     background: #f4f4f4;
     color: #222;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 /* ============================
-   TOP WHITE BAR
+   TOP RED BAR
    ============================ */
 .top-bar {
     background: #f7f7f7;
     height: 6px;
     width: 100%;
+}
+
+/* ============================
+   SIMPLE LINK BAR
+   ============================ */
+.simple-links {
+    background: #5e0000;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.simple-links a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.simple-links a:hover {
+    text-decoration: underline;
+}
+
+/* ============================
+   HEADER WITH EMBLEM
+   ============================ */
+header {
+    background: #8b0000;
+    color: white;
+    padding: 30px 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.emblem {
+    width: 160px;
+    height: auto;
+    margin-left: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ============================
+   MAIN CONTENT
+   ============================ */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #8b0000;
+    margin-top: 0;
+}
+
+/* ============================
+   RANKING IMAGE
+   ============================ */
+.ranking-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 60%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* ============================
+   LISTS
+   ============================ */
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+footer {
+    background: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
 }
