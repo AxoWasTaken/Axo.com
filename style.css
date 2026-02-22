@@ -55,7 +55,7 @@ header {
 }
 
 .emblem {
-    width: 40px;
+    width: 80px;
     height: auto;
     margin-left: 10px;
 }
@@ -83,7 +83,7 @@ section {
 }
 
 h2 {
-    color: #f7f7f7;
+    color: #000000;
     margin-top: 0;
 }
 
